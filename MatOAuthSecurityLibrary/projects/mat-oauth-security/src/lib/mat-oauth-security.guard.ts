@@ -6,7 +6,7 @@ import {MatOAuthSecurityService} from 'projects/mat-oauth-security/src/lib/mat-o
 @Injectable({
   providedIn: 'root'
 })
-export class MatOAuthSecurityGuardGuard implements CanActivate {
+export class MatOauthSecurityGuard implements CanActivate {
   constructor(private router: Router, private service: MatOAuthSecurityService) {}
 
   canActivate(
